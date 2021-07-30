@@ -1,12 +1,6 @@
-import { useState } from 'react';
-
 const Navbar = () => {
-  const [isCollapse, setIsCollapse] = useState(true);
-
-  const handleCollapse = () => setIsCollapse((isCollapse) => !isCollapse);
-
   return (
-    <nav className="navbar navbar-lg bg-dark navbar-dark py-3 fixed-top">
+    <nav className="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top">
       <div className="container">
         <a href="#!" className="navbar-brand">
           Frontend Bootcamp
@@ -16,17 +10,10 @@ const Navbar = () => {
           className="navbar-toggler"
           data-bs-toggle="collapse"
           data-bs-target="#navmenu"
-          aria-controls="navmenu"
-          aria-label="Toggle navigation"
-          aria-expanded={true}
-          onClick={handleCollapse}
         >
           <span className="navbar-toggler-icon" />
         </button>
-        <div
-          id="navmenu"
-          className={`${isCollapse ? 'collapse' : ''} navbar-collapse`}
-        >
+        <div id="navmenu" className="collapse navbar-collapse">
           <ul className="navbar-nav ms-auto">
             <li className="nav-item">
               <a href="#learn" className="nav-link">
