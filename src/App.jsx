@@ -2,6 +2,7 @@ import {
   Boxes,
   Contact,
   FAQ,
+  Footer,
   Instructors,
   Learn,
   Navbar,
@@ -22,6 +23,7 @@ function App() {
       <FAQ />
       <Instructors />
       <Contact />
+      <Footer />
     </>
   );
 }
