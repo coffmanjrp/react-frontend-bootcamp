@@ -15,7 +15,7 @@ const Showcase = () => {
             </p>
             <button
               className="btn btn-primary btn-lg"
-              dat-bs-toggle="modal"
+              data-bs-toggle="modal"
               data-bs-target="#enroll"
             >
               Start The Enrollment

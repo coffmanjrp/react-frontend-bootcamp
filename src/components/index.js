@@ -4,6 +4,7 @@ export { default as FAQ } from './FAQ';
 export { default as Footer } from './Footer';
 export { default as Instructors } from './Instructors';
 export { default as Learn } from './Learn';
+export { default as Modal } from './Modal';
 export { default as Navbar } from './Navbar';
 export { default as Newsletter } from './Newsletter';
 export { default as Showcase } from './Showcase';

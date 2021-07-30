@@ -5,6 +5,7 @@ import {
   Footer,
   Instructors,
   Learn,
+  Modal,
   Navbar,
   Newsletter,
   Showcase,
@@ -24,6 +25,7 @@ function App() {
       <Instructors />
       <Contact />
       <Footer />
+      <Modal />
     </>
   );
 }
