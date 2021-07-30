@@ -1,5 +1,6 @@
 import {
   Boxes,
+  Contact,
   FAQ,
   Instructors,
   Learn,
@@ -20,6 +21,7 @@ function App() {
       <Learn />
       <FAQ />
       <Instructors />
+      <Contact />
     </>
   );
 }
