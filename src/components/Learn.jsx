@@ -1,3 +1,4 @@
+import { ChevronRight } from 'react-bootstrap-icons';
 import fundamentalImage from '../img/fundamentals.svg';
 import reactImage from '../img/react.svg';
 
@@ -27,7 +28,7 @@ const Learn = () => {
                 obcaecati aut saepe libero ullam!
               </p>
               <a href="#!" className="btn btn-light mt-3">
-                <i className="bi bi-chevron-right" /> Read More
+                <ChevronRight /> Read More
               </a>
             </div>
           </div>
@@ -49,7 +50,7 @@ const Learn = () => {
                 obcaecati aut saepe libero ullam!
               </p>
               <a href="#!" className="btn btn-light mt-3">
-                <i className="bi bi-chevron-right" /> Read More
+                <ChevronRight /> Read More
               </a>
             </div>
             <div className="col-md">

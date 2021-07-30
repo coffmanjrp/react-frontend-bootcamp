@@ -1,3 +1,5 @@
+import { Laptop, PersonSquare, People } from 'react-bootstrap-icons';
+
 const Boxes = () => {
   return (
     <section className="p-5">
@@ -7,7 +9,7 @@ const Boxes = () => {
             <div className="card bg-dark text-light">
               <div className="card-body text-center">
                 <div className="h1 mb-3">
-                  <i className="bi bi-laptop" />
+                  <Laptop />
                 </div>
                 <h3 className="card-title mb-3">Virtual</h3>
                 <p className="card-text">
@@ -24,7 +26,7 @@ const Boxes = () => {
             <div className="card bg-secondary text-light">
               <div className="card-body text-center">
                 <div className="h1 mb-3">
-                  <i className="bi bi-person-square" />
+                  <PersonSquare />
                 </div>
                 <h3 className="card-title mb-3">Hybrid</h3>
                 <p className="card-text">
@@ -41,7 +43,7 @@ const Boxes = () => {
             <div className="card bg-dark text-light">
               <div className="card-body text-center">
                 <div className="h1 mb-3">
-                  <i className="bi bi-people" />
+                  <People />
                 </div>
                 <h3 className="card-title mb-3">In Person</h3>
                 <p className="card-text">

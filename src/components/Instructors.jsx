@@ -1,3 +1,5 @@
+import { Twitter, Facebook, Linkedin, Instagram } from 'react-bootstrap-icons';
+
 const Instructors = () => {
   return (
     <section id="instructors" className="p-5 bg-primary">
@@ -22,16 +24,16 @@ const Instructors = () => {
                   Alias distinctio molestiae magnam, sapiente laudantium non.
                 </p>
                 <a href="#!">
-                  <i className="bi bi-twitter text-dark mx-1"></i>
+                  <Twitter className="text-dark mx-1" />
                 </a>
                 <a href="#!">
-                  <i className="bi bi-facebook text-dark mx-1"></i>
+                  <Facebook className="text-dark mx-1" />
                 </a>
                 <a href="#!">
-                  <i className="bi bi-linkedin text-dark mx-1"></i>
+                  <Linkedin className="text-dark mx-1" />
                 </a>
                 <a href="#!">
-                  <i className="bi bi-instagram text-dark mx-1"></i>
+                  <Instagram className="text-dark mx-1" />
                 </a>
               </div>
             </div>
@@ -50,16 +52,16 @@ const Instructors = () => {
                   Alias distinctio molestiae magnam, sapiente laudantium non.
                 </p>
                 <a href="#!">
-                  <i className="bi bi-twitter text-dark mx-1"></i>
+                  <Twitter className="text-dark mx-1" />
                 </a>
                 <a href="#!">
-                  <i className="bi bi-facebook text-dark mx-1"></i>
+                  <Facebook className="text-dark mx-1" />
                 </a>
                 <a href="#!">
-                  <i className="bi bi-linkedin text-dark mx-1"></i>
+                  <Linkedin className="text-dark mx-1" />
                 </a>
                 <a href="#!">
-                  <i className="bi bi-instagram text-dark mx-1"></i>
+                  <Instagram className="text-dark mx-1" />
                 </a>
               </div>
             </div>
@@ -78,16 +80,16 @@ const Instructors = () => {
                   Alias distinctio molestiae magnam, sapiente laudantium non.
                 </p>
                 <a href="#!">
-                  <i className="bi bi-twitter text-dark mx-1"></i>
+                  <Twitter className="text-dark mx-1" />
                 </a>
                 <a href="#!">
-                  <i className="bi bi-facebook text-dark mx-1"></i>
+                  <Facebook className="text-dark mx-1" />
                 </a>
                 <a href="#!">
-                  <i className="bi bi-linkedin text-dark mx-1"></i>
+                  <Linkedin className="text-dark mx-1" />
                 </a>
                 <a href="#!">
-                  <i className="bi bi-instagram text-dark mx-1"></i>
+                  <Instagram className="text-dark mx-1" />
                 </a>
               </div>
             </div>
@@ -106,16 +108,16 @@ const Instructors = () => {
                   Alias distinctio molestiae magnam, sapiente laudantium non.
                 </p>
                 <a href="#!">
-                  <i className="bi bi-twitter text-dark mx-1"></i>
+                  <Twitter className="text-dark mx-1" />
                 </a>
                 <a href="#!">
-                  <i className="bi bi-facebook text-dark mx-1"></i>
+                  <Facebook className="text-dark mx-1" />
                 </a>
                 <a href="#!">
-                  <i className="bi bi-linkedin text-dark mx-1"></i>
+                  <Linkedin className="text-dark mx-1" />
                 </a>
                 <a href="#!">
-                  <i className="bi bi-instagram text-dark mx-1"></i>
+                  <Instagram className="text-dark mx-1" />
                 </a>
               </div>
             </div>

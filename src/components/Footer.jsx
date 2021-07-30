@@ -1,3 +1,5 @@
+import { ArrowUpCircle } from 'react-bootstrap-icons';
+
 const Footer = () => {
   return (
     <footer className="p-5 bg-dark text-light text-center position-relative">
@@ -6,7 +8,7 @@ const Footer = () => {
           Copyright &copy; {new Date().getFullYear()} Frontend Bootcamp
         </p>
         <a href="#!" className="position-absolute bottom-0 end-0 p-5">
-          <i className="bi bi-arrow-up-circle h1" />
+          <ArrowUpCircle className="h1" />
         </a>
       </div>
     </footer>

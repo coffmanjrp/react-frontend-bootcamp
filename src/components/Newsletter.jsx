@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { Envelope } from 'react-bootstrap-icons';
 
 const Newsletter = () => {
   const [value, setValue] = useState('');
@@ -26,10 +27,10 @@ const Newsletter = () => {
             <button
               type="button"
               id="newsletter-button"
-              className="btn btn-dark btn-lg"
+              className="btn btn-dark btn-lg lh-1"
               onClick={handleClick}
             >
-              Button
+              <Envelope />
             </button>
           </div>
         </div>
