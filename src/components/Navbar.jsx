@@ -32,16 +32,16 @@ const Navbar = () => {
               <a href="#learn" className="nav-link">
                 What You'll Learn
               </a>
-              <li className="nav-item">
-                <a href="#questions" className="nav-link">
-                  Questions
-                </a>
-              </li>
-              <li className="nav-item">
-                <a href="#instructors" className="nav-link">
-                  Instructors
-                </a>
-              </li>
+            </li>
+            <li className="nav-item">
+              <a href="#questions" className="nav-link">
+                Questions
+              </a>
+            </li>
+            <li className="nav-item">
+              <a href="#instructors" className="nav-link">
+                Instructors
+              </a>
             </li>
           </ul>
         </div>
