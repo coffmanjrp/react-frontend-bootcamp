@@ -1,4 +1,4 @@
-import { Boxes, Learn, Navbar, Newsletter, Showcase } from './components';
+import { Boxes, FAQ, Learn, Navbar, Newsletter, Showcase } from './components';
 
 import './App.css';
 
@@ -10,6 +10,7 @@ function App() {
       <Newsletter />
       <Boxes />
       <Learn />
+      <FAQ />
     </>
   );
 }
