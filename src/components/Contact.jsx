@@ -39,8 +39,8 @@ const Contact = () => {
             <h2 className="text-center mb-4">Contact Info</h2>
             <ul className="list-group list-group-flush lead">
               <li className="list-group-item">
-                <span className="fw-bold">Main Location</span>10th st Sacramento
-                CA
+                <span className="fw-bold">Main Location:</span> 10th st
+                Sacramento CA
               </li>
               <li className="list-group-item">
                 <span className="fw-bold">Enrollment Phone:</span> (555)
@@ -54,7 +54,7 @@ const Contact = () => {
                 enroll@frontendbc.test
               </li>
               <li className="list-group-item">
-                <span className="fw-bold">Student Email:</span>
+                <span className="fw-bold">Student Email:</span>{' '}
                 student@frontendbc.test
               </li>
             </ul>
