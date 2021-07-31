@@ -60,7 +60,7 @@ const Contact = () => {
             </ul>
           </div>
           <div className="col-md position-relative">
-            <div className="m-1 py-1 px-2 text-light rounded-1 sidebar">
+            <div className="d-md-block d-none m-1 py-1 px-2 text-light rounded-1 sidebar">
               Longitude: {lng} | Latitude: {lat} | Zoom: {zoom}
             </div>
             <div ref={mapContainer} className="map" />
