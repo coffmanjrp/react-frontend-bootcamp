@@ -7,7 +7,7 @@
 1. Clone this repository.
 
 ```
-git clone git@github.com:coffmanjrp/react-bs5-frontend-bootcamp.git
+git clone git@github.com:coffmanjrp/react-frontend-bootcamp.git
 ```
 
 Or download the zip file.
